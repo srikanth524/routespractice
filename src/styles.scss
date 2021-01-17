@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+.main-block{
+    min-height: 400px;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

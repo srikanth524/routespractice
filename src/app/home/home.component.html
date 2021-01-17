@@ -1,0 +1,31 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img
+        src="https://bulma.io/images/bulma-logo.png"
+        alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
+        width="112"
+        height="28"
+      />
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item"> dashboard </a>
+      <a class="navbar-item" routerLink="/settings"> settings </a>
+      <a class="navbar-item" routerLink="/products"> products </a>
+      <a class="navbar-item" (click)="logOutMethod()"> logout </a>
+
+    </div>
+  </div>
+</nav>
+<div class="content">
+  <section class="section">
+    <div class="container main-block">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+</div>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
